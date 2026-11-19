@@ -24,7 +24,7 @@ Estudiar conceptos de programación suele ser monótono. Esta aplicación convie
 
 ## Instalación
 ```bash
-git clone <URL_DEL_REPOSITORIO>
+git clone <https://github.com/marlonaragon55-sketch/quiz-poo.git>
 cd quiz_poo
 python -m venv .venv
 # Windows: .venv\Scripts\activate    |  Linux/Mac: source .venv/bin/activate
