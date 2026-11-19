@@ -63,8 +63,11 @@ correcta = pregunta.evaluar(indice)   # Multiple o VF, Partida no distingue
 - **Controles:** `Entry`, `Combobox`, `Button` y `Label`.
 - **Eventos y callbacks:** los botones usan `command=` (`_iniciar`, `_responder`, `_dialogo_agregar`) y el temporizador usa `after()` con `_tick`.
 - **Comunicación con las clases:** la interfaz crea `Partida`, llama `responder()` o `tiempo_agotado()` y lee `puntaje`, `aciertos` y `errores`.
-- **Capturas:** agregar aquí las imágenes de `docs/imagenes/`.
-
+- **Capturas:**
+![Menú principal](imagenes/menu.png)
+![Pregunta con temporizador](imagenes/pregunta.png)
+![Resultados de la partida](imagenes/resultados.png)
+![Formulario con mensaje de error](imagenes/agregar.png)
 ## 7. Proceso de desarrollo
 1. Formulación de la idea: juego de preguntas con temporizador.
 2. Identificación de funcionalidades: jugar, temporizador, resultados y agregar preguntas.
